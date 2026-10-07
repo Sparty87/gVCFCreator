@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Se utilizzi questo software, citalo come indicato di seguito."
+title: "gVCFCreator"
+type: software
+authors:
+  - family-names: "Spartano"
+    given-names: "Serena"
+version: "1.0.0"
+doi: "10.5281/zenodo.23207563"
+date-released: "2026-10-07"
+license: "MIT"
+repository-code: "https://github.com/Sparty87/gVCFCreator"
+abstract: "A graphical interface (Tkinter) for generating genomic VCFs (.g.vcf.gz) from BAM/CRAM files with GATK HaplotypeCaller (-ERC GVCF). Features Batch processing of multiple BAM/CRAM files, one gVCF per sample Optional restriction to target regions (BED / interval_list) with configurable padding Configurable quality filters: minimum MAPQ, minimum base quality, calling confidence threshold Configurable ploidy, PairHMM threads and Java memory Optional inclusion of reads marked as duplicates Automatic creation of the reference .fai and .dict if missing Handling of BAMs containing several samples (different SM tags): one gVCF per sample (--sample-name), or merge into a single sample (AddOrReplaceReadGroups) BAMs without read groups are handled automatically (a read group is added) Input validation, live log, progress bar, and the ability to stop a running analysis Existing outputs are skipped unless overwriting is enabled"

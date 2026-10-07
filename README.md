@@ -1,5 +1,7 @@
 # gVCFCreator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23207562.svg)](https://doi.org/10.5281/zenodo.23207562)
+
 A graphical interface (Tkinter) for generating genomic VCFs (`.g.vcf.gz`) from BAM/CRAM files with GATK HaplotypeCaller (`-ERC GVCF`).
 
 ## Features
